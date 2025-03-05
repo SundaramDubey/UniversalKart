@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="main.js">
     <title>UniversalKart</title>
   </head>
   <body>
@@ -31,7 +39,344 @@
             />
           </a>
         </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/products" class="nav-link">Products</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/addToCart.html"
+                class="nav-link add-to-cart-button"
+                id="cartValue"
+                ><i class="fa-solid fa-cart-shopping"> 0 </i></a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
+
+    <!-- start Home Hero section  -->
+    <section class="section-hero">
+      <div class="container grid grid-two--cols">
+        <div class="sectio-hero--content">
+          <p class="hero-subheading">Explore the Latest in Tech Industries.</p>
+          <h1 class="hero-heading">
+            Your Destination for cutting edge technology.
+          </h1>
+          <p class="hero-para">
+            Welcome to UniversalKart, your number one source for all things
+            tech. We're dedicated to giving you the very best of tech products,
+            with a focus on quality, customer service and uniqueness.
+          </p>
+        </div>
+        <div class="section-hero-image" data-aos="fade-up" data-aos-delay="600">
+          <figure>
+            <img
+              src="./images/gadgets-main.jpg"
+              alt="coding language using html css and js"
+              class="hero-image"
+            />
+          </figure>
+        </div>
+      </div>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 35.28 2.17"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z"
+          fill="%23fbd8c2"
+        />
+        <path
+          d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z"
+          opacity=".5"
+          fill="%23fbd8c2"
+        />
+        <path
+          d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z"
+          opacity=".5"
+          fill="%23fbd8c2"
+        />
+      </svg>
+    </section>
+
+    <!-- end Home Hero section  -->
+
+    <!-- Start Extra Product Section  -->
+    <section class="section-extra-product">
+      <div class="container grid grid-three--cols">
+        <div class="div-extra grid grid-two--cols">
+          <div class="extra-text">
+            <p>new year sale</p>
+            <h3>Get Extra 50% off</h3>
+            <a href="#">Show Now</a>
+          </div>
+          <div class="extra-img extra-laptop">
+            <img src="./images/lappy.jpg" alt="" />
+          </div>
+        </div>
+        <div class="div-extra grid grid-two--cols">
+          <div class="extra-text">
+            <p>new year sale</p>
+            <h3>Get Extra 10% off</h3>
+            <a href="#">Show Now</a>
+          </div>
+          <div class="extra-img">
+            <img src="./images/mobile.webp" alt="" />
+          </div>
+        </div>
+        <div class="div-extra grid grid-two--cols">
+          <div class="extra-text">
+            <p>new year sale</p>
+            <h3>Get Extra 50% off</h3>
+            <a href="#">Show Now</a>
+          </div>
+          <div class="extra-img">
+            <img src="./images/MUW33.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Extra Product Section  -->
+
+    <!-- Start-Policy  -->
+    <section class="section-policy">
+      <div class="container grid grid-four--cols">
+        <div class="div-policy">
+          <div class="icons"><i class="fa-solid fa-truck-fast"></i></div>
+          <div class="div-policy-text">
+            <p>World wide shiping</p>
+            <p>order above $100</p>
+          </div>
+        </div>
+        <div class="div-policy">
+          <div class="icons"><i class="fa-solid fa-arrows-rotate"></i></div>
+          <div class="div-policy-text">
+            <p>Easy 30 days Return</p>
+            <p>Back Return in 7 days</p>
+          </div>
+        </div>
+        <div class="div-policy">
+          <div class="icons">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+          <div class="div-policy-text">
+            <p>Money Back Gaurantee</p>
+            <p>Gaurantee with in 30 days</p>
+          </div>
+        </div>
+        <div class="div-policy">
+          <div class="icons"><i class="fa-solid fa-headset"></i></div>
+          <div class="div-policy-text">
+            <p>Easy Online Support</p>
+            <p>24/7 Any Time Support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End policy -->
+
+    <!-- Start Featured Product Section  -->
+     <section class="section-products">
+      <div class="container">
+        <div class="section-common-heading">Check Out UniversalKart</div>
+      </div>
+      <section class="container">
+        <div id="productContainer">
+
+        </div>
+      </section>
+    </section>
+
+     <!-- Start template Featured Product Section -->
+      <template id="productTemplate">
+        <div class="card" id="cardValue">
+          <article class="informaton [card]">
+            <span class="category"></span>
+              <div class="imageContainer">
+              <img class="productImage" src="" alt="">
+
+              </img>
+              </div>
+              <h2 class="productName"></h2>
+              <div class="productRating">
+                <i class="fa-solid" fa-star></i>
+                <i class="fa-solid" fa-star></i>
+                <i class="fa-solid" fa-star></i>
+                <i class="fa-solid" fa-star></i>
+                <i class="fa-solid" fa-star></i>
+              </div>
+
+              <p class="productDescription"></p>
+              <div class="productPriceElement">
+                <p class="productPrice"></p>
+                <p class="productActualPrice"></p>
+              </div>
+              <div class="productStockElement">
+                <p class="productProperty">
+                  Total Stock Available:</p>
+                  <p class="productStock"></p>
+              </div>
+              <div class="productQuantityElement">
+                <p class="productProperty">Quantity(pieces)</p>
+                <div class="stockElement">
+                  <button class="cartIncrement">+</button>
+                  <p class="productQuantity">1</p>
+                  <button class="cartDecrement">-</button>
+                </div>
+              </div>
+              
+            <button class="add-to-cart-button">
+              <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+            </button>
+          </article>
+        </div>
+      </template>
+     <!-- End template Featured Product Section -->
+
+    <!-- End Featured Product Section  -->
+
+
+
+
+
+    <!--start Why choose us section -->
+    <section class="section-why--choose">
+      <div class="container">
+        <h2 class="section-common--heading">Why choose UniversalKart</h2>
+        <p class="section-common--subheading">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero unde
+          commodi asperiores autem obcaecati repellat?
+        </p>
+      </div>
+      <div class="container grid grid-three--cols">
+        <div class="choose-left-div text-align--right">
+          <div class="why-choose--div" data-aos="zoom-in-up" data-aos-delay="0">
+            <p class="common-text--highlight">1</p>
+            <h3 class="section-common--title">Wide Selection</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              nostrum aut voluptate quam, excepturi nobis temporibus blanditiis
+              similique in error fugiat ex autem molestias tempore modi
+              obcaecati consectetur totam! Aut.
+            </p>
+          </div>
+          <div class="why-choose--div" data-aos="zoom-in-up" data-aos-delay="300">
+            <p class="common-text--highlight">2</p>
+            <h3 class="section-common--title">Quality Assurance</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              nostrum aut voluptate quam, excepturi nobis temporibus blanditiis
+              similique in error fugiat ex autem molestias tempore modi
+              obcaecati consectetur totam! Aut.
+            </p>
+        </div>
+        <div class="why-choose--div" data-aos="zoom-in-up" data-aos-delay="600">
+          <p class="common-text--highlight">3</p>
+          <h3 class="section-common--title">Competitive Price</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            nostrum aut voluptate quam, excepturi nobis temporibus blanditiis
+            similique in error fugiat ex autem molestias tempore modi
+            obcaecati consectetur totam! Aut.
+          </p>
+        </div>
+      </div>
+      <div class="choose-center-div" data-aos="zoom-in" data-aos-delay="300">
+        <figure>
+          <img src="./images/choose-3.webp" alt="why choose us" />
+        </figure>
+      </div>
+      <div class="choose-right-div">
+        <div class="why-choose--div text-align--left" data-aos-delay="0">
+          <p class="common-text--highlight">4</p>
+          <h3 class="section-common--title">Customer Support</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            nostrum aut voluptate quam, excepturi nobis temporibus blanditiis
+            similique in error fugiat ex autem molestias tempore modi obcaecati
+            consectetur totam! Aut.
+          </p>
+        </div>
+        <div class="why-choose--div" data-aos-delay="300">
+          <p class="common-text--highlight">5</p>
+          <h3 class="section-common--title">Secure Payment</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            nostrum aut voluptate quam, excepturi nobis temporibus blanditiis
+            similique in error fugiat ex autem molestias tempore modi obcaecati
+            consectetur totam! Aut.
+          </p>
+        </div>
+        <div class="why-choose--div" data-aos-delay="600">
+          <p class="common-text--highlight">6</p>
+          <h3 class="section-common--title">Fast Delivery</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            nostrum aut voluptate quam, excepturi nobis temporibus blanditiis
+            similique in error fugiat ex autem molestias tempore modi obcaecati
+            consectetur totam! Aut.
+          </p>
+      </div>
+    </section>
+    <!--End Why choose us section -->
+
+    <!-- start footer section -->
+     <footer class="footer-section">
+      <div class="footer-container container">
+        <div class="content_1">
+          <img src="./images/quality.png" alt="logo">
+          <p>Welcome to UniversalKart Store your ultimate <br> destination for the cutting edge gadgets</p>
+          <img src="./images/payment2.png" alt="cards">
+        </div>
+        <div class="content_2">
+          <h4>SHOPPING</h4>
+          <a href="#">Computer Store</a>
+          <a href="#">Laptop Store</a>
+          <a href="#">Accessories</a>
+          <a href="#">Sales & Discount</a>
+        </div>
+        <div class="content_3">
+          <h4>INFORMATION</h4>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="content_4">
+          <h4>NEWSLWTTER</h4>
+          <p>Be the first to know about new <br> arrivals , sales and promos!</p>
+          <div class="f-mail">
+            <input type="email" placeholder="Enter your email">
+            <i class="bx bx-envelope"></i>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="f-design">
+        <div class="f-design-text">
+          <p>Design & code by dubeyji</p>
+        </div>
+      </div>
+     </footer>
+     <!-- End footer section -->
+      <!-- -----script-------- -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> -->
+    <script src="/src/main.js"></script>
   </body>
 </html>

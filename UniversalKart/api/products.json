@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "laptops",
+        "category": "Computer",
+        "brand": "ExampleBrand",
+        "price": 999.9,
+        "stock": 10,
+        "description": "Powerful laptop with 16GB RAM and 1TB SSD",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "name": "Smartphones",
+        "category": "Mobile",
+        "brand": "Samsung",
+        "price": 4099,
+        "stock": 5,
+        "description": "Samsung Galaxy S21 Ultra 5G",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 4,
+        "name": "Smartphones",
+        "category": "Mobile",
+        "brand": "Samsung",
+        "price": 4099,
+        "stock": 5,
+        "description": "Samsung Galaxy S21 Ultra 5G",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 5,
+        "name": "earphones",
+        "category": "Mobile",
+        "brand": "Samsung",
+        "price": 4099,
+        "stock": 5,
+        "description": "Samsung Galaxy S21 Ultra 5G",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 6,
+        "name": "Smartphones",
+        "category": "Mobile",
+        "brand": "Samsung",
+        "price": 4099,
+        "stock": 5,
+        "description": "Samsung Galaxy S21 Ultra 5G",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 7,
+        "name": "Smartphones",
+        "category": "Mobile",
+        "brand": "Samsung",
+        "price": 4099,
+        "stock": 5,
+        "description": "Samsung Galaxy S21 Ultra 5G",
+        "image": "https://via.placeholder.com/150"
+    }
+]

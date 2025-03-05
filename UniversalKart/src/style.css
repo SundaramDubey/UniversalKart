@@ -328,6 +328,7 @@ main .section-hero {
 .section-hero .grid {
   align-items: center;
   gap: 6.4rem;
+  background-color: skyblue;
 }
 
 .section-hero {
@@ -669,7 +670,7 @@ footer {
 
 .footer-container .content_1 img {
   height: auto;
-  width: 15rem;
+  width: 10rem;
 }
 
 .footer-container {
@@ -1008,6 +1009,7 @@ footer {
 
 @media (width <= 1220px) {
   html {
+    
     font-size: 54%;
   }
 
@@ -1026,6 +1028,10 @@ footer {
     width: 46rem;
     height: 46rem;
   }
+}
+
+.section-why--choose{
+  background-color: skyblue;
 }
 
 @media (width <= 1100px) {
